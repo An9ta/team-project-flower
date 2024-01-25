@@ -5,7 +5,7 @@
   "homepage": "https://An9ta.github.io/team-project-flower",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-project-flower-pl-main/"
+    "build": "parcel build src/*.html --public-url /team-project-flower/"
   },
   "repository": {
     "type": "git",
