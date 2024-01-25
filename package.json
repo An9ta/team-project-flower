@@ -5,11 +5,11 @@
   "homepage": "https://An9ta.github.io/team-project-flower.git",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url parcel-project-template-pl-main"
+    "build": "parcel build src/*.html --public-url team-project-flower-pl-main"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/migace/parcel-project-template-pl-main.git"
+    "url": "git+https://github.com/team-project-flower-pl-main.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
