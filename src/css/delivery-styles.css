@@ -57,7 +57,7 @@ body {
 .circle{
     width: 39px;
     content: "1";
-
+    padding-right: 8px;
 }
 .section-title::after {
     content: "";
@@ -68,3 +68,4 @@ body {
     height: 4px;
     background: black;
     border-radius: 2px;
+}
