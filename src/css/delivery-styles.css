@@ -34,7 +34,15 @@ body {
 .list {
     list-style: none;
 }
-
+.delivery-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.delivery-list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .section-title {
     color: #000;
     font-family: Montserrat;
@@ -43,3 +51,20 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+.delivery-img{
+    width: 100%;
+}
+.circle{
+    width: 39px;
+    content: "1";
+
+}
+.section-title::after {
+    content: "";
+    position: absolute;
+    left: 19%;
+    top: 12%;
+    width: 80%;
+    height: 4px;
+    background: black;
+    border-radius: 2px;
