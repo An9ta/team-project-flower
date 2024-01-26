@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #ffffff;
+    --text: #000;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    color: var(--text);
+    background-color: var(--white);
+}
+
+.container {
+    max-width: 768px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.section-title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
