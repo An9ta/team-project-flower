@@ -43,6 +43,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.delivery-list-item > p{
+    padding-left: 8px;
+}
 .section-title {
     color: #000;
     font-family: Montserrat;
@@ -55,6 +58,8 @@ body {
     width: 100%;
 }
 .circle{
+    position: absolute;
+    content: "1";
 }
 .section-title::after {
     content: "";
@@ -64,4 +69,13 @@ body {
     width: 78%;
     height: 1px;
     background: black;
+}
+.number{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
 }
