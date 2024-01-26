@@ -55,17 +55,13 @@ body {
     width: 100%;
 }
 .circle{
-    width: 39px;
-    content: "1";
-    padding-right: 8px;
 }
 .section-title::after {
     content: "";
     position: absolute;
-    left: 19%;
+    left: 20%;
     top: 12%;
-    width: 80%;
-    height: 4px;
+    width: 78%;
+    height: 1px;
     background: black;
-    border-radius: 2px;
 }
