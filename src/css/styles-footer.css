@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
+
+footer {
+  background-color: black;
+  color: var(--white);
+  height: 389px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+li {
+  list-style: none;
+}
+.footer-container {
+  max-width: 480px;
+}
+.footer-svg {
+  fill: var(--white);
+}
+.logo-svg-footer {
+  fill: var(--white);
+  display: none;
+}
+.footer-p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.list-points {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.list-container {
+  padding: 32px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: unset;
+}
+
+.list {
+  width: calc((100% - 16px) / 2);
+  margin-bottom: 30px;
+}
+.svg-icons {
+  display: flex;
+  gap: 14px;
+}
+.container-svg {
+  padding-left: 0px;
+}
+
+@media (min-width: 480px) {
+  .footer-container {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    height: 268px;
+  }
+
+  .footer-container {
+    max-width: 768x;
+    margin: 0 auto;
+  }
+  .footer-p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .list-points {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .list-container {
+    padding-left: 24px;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 44px;
+  }
+  .list {
+    width: calc((100% - 16px) / 4);
+  }
+  .svg-icons {
+    display: block;
+  }
+  .container-svg {
+    padding-left: 64px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    height: 299px;
+  }
+  .footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .logo-svg-footer {
+    display: flex;
+    padding-right: 210px;
+  }
+  .footer-p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .list-points {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .list-container {
+    padding: 73px 0px 0px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 96px;
+  }
+  .list {
+    width: auto;
+  }
+  .svg-icons {
+    display: block;
+  }
+  .container-svg {
+    padding-right: 48px;
+  }
+}
