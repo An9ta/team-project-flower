@@ -33,18 +33,18 @@ button {
   max-width: 1280px;
 }
 
-/* .hero-style {
+.hero-style {
   width: 145px;
   height: 274px;
   gap: 61px;
-  background-image: url('../images/image_home_page.jpg');
+  /* background-image: url('../images/image_home_page.jpg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 226px;
   display: flex;
   flex-direction: column;
-} */
+}
 
 .hero-title {
   max-width: 288px;
