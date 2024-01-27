@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   color: black;
   background: white;
 }
@@ -33,6 +33,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 14px;
 }
 
 .h2_text {
@@ -73,6 +74,11 @@ ul {
     margin-right: 24px;
   }
 
+  .line_about {
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+
   .h2_text {
     font-size: 44px;
     font-style: normal;
@@ -88,6 +94,7 @@ ul {
   .list_about {
     flex-direction: row;
     align-items: center;
+    gap: 54px;
   }
 
   .about_text {
@@ -98,8 +105,16 @@ ul {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: 0px;
+  }
+  .item_images {
+    width: 344px;
+    height: auto;
+    border-radius: 0px 639.5px 639.5px 0px;
+    background: lightgray -16.343px -16px / 104.771% 110.84% no-repeat;
   }
 }
+
 @media (min-width: 1280px) {
   .container_about {
     width: 100%;
@@ -108,14 +123,36 @@ ul {
     margin-left: 24px;
     margin-right: 24px;
   }
+
+  .line_about {
+    gap: 16px;
+    margin-bottom: 26px;
+  }
+
   .line {
     width: 1050px;
     color: black;
   }
+
+  .list_about {
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+  }
+
   .about_text {
     width: 100%;
     max-width: 510px;
     height: 135px;
     font-size: 22px;
+    padding: 0px;
+  }
+
+  .item_images {
+    width: 632px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px 639.5px 639.5px 0px;
+    background: lightgray -16.343px -16px / 104.771% 110.84% no-repeat;
   }
 }
