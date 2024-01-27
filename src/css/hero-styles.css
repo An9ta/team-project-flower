@@ -8,8 +8,8 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: var(--text);
   background-color: var(--white);
 }
@@ -37,7 +37,7 @@ button {
   width: 145px;
   height: 274px;
   gap: 61px;
-  background-image: url("../images/image_home_page.jpg");
+  background-image: url('../images/image_home_page.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ button {
   max-width: 288px;
   color: #000;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 52px;
   font-style: normal;
   font-weight: 400;
@@ -71,7 +71,7 @@ button {
 .hero-subtitle {
   max-width: 46px;
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -83,11 +83,9 @@ button {
   height: 76px;
 }
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-style {
-    background-image: url("../images/image_home_page@2x.jpg");
+    background-image: url('../images/image_home_page@2x.jpg');
   }
 }
 
@@ -143,7 +141,7 @@ button {
   }
 
   .hero-last-letter::before {
-    content: "";
+    content: '';
     border-bottom: solid black 9px;
     width: 65px;
     margin-top: 25px;
