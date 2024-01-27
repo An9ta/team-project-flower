@@ -31,6 +31,7 @@ button {
   height: 354px;
   width: 100%;
   max-width: 1280px;
+  margin: auto;
 }
 
 .hero-style {
@@ -164,5 +165,31 @@ button {
   .hero-icon {
     width: 166px;
     height: 166px;
+  }
+  .hero-style:hover,
+  .hero-style:focus {
+    animation-name: showimg;
+    animation-duration: 3000ms;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes showimg {
+    0% {
+      border-radius: 226px;
+    }
+
+    50% {
+      border-radius: 100px;
+      width: 542px;
+      height: 636px;
+    }
+
+    100% {
+      border-radius: 0px;
+      width: 1283px;
+      height: 878px;
+    }
   }
 }
