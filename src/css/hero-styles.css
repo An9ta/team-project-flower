@@ -84,6 +84,10 @@ button {
   height: 76px;
 }
 
+.hero-title a {
+  color: var(--text);
+}
+
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-style {
     background-image: url('../images/image_home_page@2x.jpg');
