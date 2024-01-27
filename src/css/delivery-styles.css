@@ -37,6 +37,7 @@ body {
 .delivery-list{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 32px;
 }
 .delivery-list-item{
     display: flex;
@@ -56,6 +57,7 @@ body {
 }
 .delivery-img{
     width: 100%;
+    padding-top: 32px;
 }
 .circle{
     position: absolute;
@@ -64,9 +66,8 @@ body {
 .section-title::after {
     content: "";
     position: absolute;
-    left: 20%;
-    top: 12%;
-    width: 78%;
+    top: 9%;
+    width: 75%;
     height: 1px;
     background: black;
 }
