@@ -60,8 +60,6 @@ body {
     padding-top: 32px;
 }
 .circle{
-    position: absolute;
-    content: "1";
 }
 .section-title::after {
     content: "";
