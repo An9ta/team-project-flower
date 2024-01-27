@@ -1,1 +1,4 @@
-import './sass/main.scss';
+import './js/contact.js';
+import './js/follow.js';
+import './js/thank.js';
+import './js/menu.js';
