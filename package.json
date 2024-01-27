@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/migace/parcel-project-template-pl-main.git"
+    "url": "git+https://github.com/An9ta/team-project-flower.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.3",
     "posthtml-include": "^1.7.4"
   }
 }
