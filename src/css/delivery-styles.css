@@ -60,10 +60,10 @@ body {
 .delivery-list-item {
     display: flex;
     align-items: center;
-    padding-bottom: 14px;
+    padding-bottom: 5%;
 }
 .text {
-    padding-left: 8px;
+    margin-left: 5vw;
     font-size: 14px;
 }
 .circle {
