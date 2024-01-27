@@ -21,16 +21,16 @@ ul {
   justify-content: space-between;
 }
 
-.list {
-  list-style: none;
-}
 .arrows-list {
   display: flex;
   justify-content: center;
   gap: 25px;
+  list-style: none;
 }
 .list-item-blog {
   width: calc((100% - 32px) / 2);
+  list-style: none;
+  list-style: none;
 }
 .section-blog {
   padding: 60px 0;
