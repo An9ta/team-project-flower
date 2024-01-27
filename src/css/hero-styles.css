@@ -49,7 +49,7 @@ button {
 
 .hero-title {
   max-width: 288px;
-  color: #000;
+  color: var(--text);
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 52px;
@@ -71,7 +71,7 @@ button {
 
 .hero-subtitle {
   max-width: 46px;
-  color: #000;
+  color: var(--text);
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -143,6 +143,7 @@ button {
 
   .hero-last-letter::before {
     content: '';
+    color: var(--text);
     border-bottom: solid black 9px;
     width: 65px;
     margin-top: 25px;
@@ -166,6 +167,7 @@ button {
     width: 166px;
     height: 166px;
   }
+
   .hero-style:hover,
   .hero-style:focus {
     animation-name: showimg;
