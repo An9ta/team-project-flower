@@ -16,6 +16,16 @@ img {
 ul {
   display: flex;
 }
+.section-blog {
+  padding: 60px 0;
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+.container-blog {
+  max-width: 480px;
+  padding: 0 16px;
+}
 .section-blog-list {
   gap: 16px;
   justify-content: space-between;
@@ -32,14 +42,7 @@ ul {
   list-style: none;
   list-style: none;
 }
-.section-blog {
-  padding: 60px 0;
-}
 
-.container-blog {
-  max-width: 480px;
-  padding: 0 16px;
-}
 .follow-text {
   color: var(--black);
   text-align: center;
@@ -57,7 +60,11 @@ ul {
   font-weight: 700;
   line-height: normal;
   margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
+
 .btn {
   color: #fff;
   font-family: Montserrat;
@@ -78,6 +85,11 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btn-subscribe:hover {
+  background-color: var(--pink-alt);
+  box-shadow: 0 4px 16px #fa6f5433;
 }
 .subscribe {
   display: flex;
