@@ -19,9 +19,10 @@ ul {
 
 .container_about {
   width: 100%;
-  max-width: 288px;
-  height: 395px;
+  max-width: 480px;
   margin: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .line_about {
@@ -39,8 +40,8 @@ ul {
   text-transform: uppercase;
 }
 .line {
-  width: 183px;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 158px;
 }
 
 .list_about {
@@ -65,7 +66,6 @@ ul {
   .container_about {
     width: 100%;
     max-width: 720px;
-    height: 301px;
     margin: auto;
   }
 
@@ -88,7 +88,6 @@ ul {
   .list_about {
     flex-direction: row;
     align-items: center;
-    gap: 54px;
   }
 
   .about_text {
@@ -113,7 +112,6 @@ ul {
   .container_about {
     width: 100%;
     max-width: 1232px;
-    height: 424px;
     margin: auto;
   }
 
@@ -129,7 +127,6 @@ ul {
   .list_about {
     flex-direction: row;
     align-items: center;
-    gap: 90px;
   }
 
   .about_text {
