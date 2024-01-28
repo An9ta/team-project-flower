@@ -2,7 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
- 
 }
 :root {
   --pink: #e86f54;
@@ -146,6 +145,9 @@
   padding-top: 8px;
   padding-bottom: 18px;
 }
+.modal-fallow-item {
+  padding: 0 2px;
+}
 
 /* Tablet */
 @media (min-width: 768px) {
@@ -153,7 +155,7 @@
     max-width: 588px;
   }
   .modal-center-follow {
-    padding: 48px 32px;
+    padding: 28px 118px 40px;
   }
   .close-btn {
     top: 24px;
@@ -185,6 +187,9 @@
     max-width: 588px;
     height: 271px;
   }
+  .modal-fallow-item {
+    padding: 0 8px;
+  }
 }
 
 /* laptpo */
@@ -206,7 +211,7 @@
   }
   .modal-center-follow {
     max-width: 432px;
-    padding: 111px 48px;
+    padding: 111px 40px;
   }
   .modal-follow-p {
     padding-top: 24px;
