@@ -1,19 +1,30 @@
 /*mobile*/
+.container-header {
+  display: flex;
+  align-items: ceneter;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+  margin-bottom: 44px;
+}
 
 .menu-header {
   display: none;
 }
-
 /*tablet*/
 @media screen and (min-width: 768px) {
-  .container-header {
-    width: 768px;
+  .cointainer {
+    margin-top: 24px;
+    margin-bottom: 38px;
   }
 }
-
 /*desctop*/
 @media screen and (min-width: 1280px) {
   .container {
-    width: px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 28px;
+    margin-bottom: 64px;
   }
 }
