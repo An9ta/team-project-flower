@@ -44,8 +44,9 @@ ul {
 }
 .line {
   width: 183px;
-  color: black;
+  border: 1px solid black;
 }
+
 .list_about {
   display: flex;
   flex-direction: column;
@@ -87,7 +88,6 @@ ul {
 
   .line {
     width: 538px;
-    color: black;
   }
   .list_about {
     flex-direction: row;
@@ -128,7 +128,6 @@ ul {
 
   .line {
     width: 1050px;
-    color: black;
   }
 
   .list_about {
