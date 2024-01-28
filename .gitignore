@@ -109,3 +109,5 @@ dist
 
 # Parcel
 .parcel-cache/
+package-lock.json
+src/partials/delivery.html
