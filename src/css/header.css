@@ -8,7 +8,28 @@
   margin-top: 16px;
   margin-bottom: 44px;
 }
-
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+.logo-icon-header {
+  width: 45px;
+  height: 35px;
+}
+.icon-tel-header {
+  width: 22px;
+  height: 22px;
+  margin-right: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.icon-burger-header {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
 .menu-header {
   display: none;
 }
@@ -17,6 +38,10 @@
   .cointainer {
     margin-top: 24px;
     margin-bottom: 38px;
+  }
+  .menu-header {
+    display: flex;
+    align-items: ceneter;
   }
 }
 /*desctop*/
