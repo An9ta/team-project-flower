@@ -12,16 +12,10 @@ footer {
   color: var(--white);
   height: 389px;
 }
-a {
-  text-decoration: none;
-  color: var(--white);
-}
-li {
-  list-style: none;
-}
 .footer-container {
   max-width: 480px;
 }
+
 .footer-svg {
   fill: var(--white);
 }
@@ -37,6 +31,9 @@ li {
   margin-bottom: 18px;
 }
 .list-points {
+  text-decoration: none;
+  color: var(--white);
+  list-style: none;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -79,6 +76,8 @@ li {
     height: 268px;
   }
   .footer-container {
+    display: flex;
+    justify-content: center;
     max-width: 768x;
     margin: 0 auto;
   }
@@ -115,13 +114,13 @@ li {
     display: none;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   footer {
     height: 299px;
   }
   .footer-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
   }
   .logo-svg-footer {
@@ -139,10 +138,11 @@ li {
     line-height: 1.2;
   }
   .list-container {
-    padding: 73px 0px 0px 0px;
+    max-width: 1280px;
+    padding: 73px 0px 0px 16px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 96px;
   }
   .list {

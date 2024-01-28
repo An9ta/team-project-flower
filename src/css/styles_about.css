@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: black;
   background: white;
 }
@@ -25,8 +25,7 @@ ul {
   width: 100%;
   max-width: 288px;
   height: 395px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin: auto;
 }
 
 .line_about {
@@ -45,8 +44,9 @@ ul {
 }
 .line {
   width: 183px;
-  color: black;
+  border: 1px solid black;
 }
+
 .list_about {
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@ ul {
   line-height: normal;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 768px) {
   .section_about {
     padding-bottom: 100px;
   }
@@ -70,8 +70,7 @@ ul {
     width: 100%;
     max-width: 720px;
     height: 301px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: auto;
   }
 
   .line_about {
@@ -89,7 +88,6 @@ ul {
 
   .line {
     width: 538px;
-    color: black;
   }
   .list_about {
     flex-direction: row;
@@ -120,8 +118,7 @@ ul {
     width: 100%;
     max-width: 1232px;
     height: 424px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: auto;
   }
 
   .line_about {
@@ -131,7 +128,6 @@ ul {
 
   .line {
     width: 1050px;
-    color: black;
   }
 
   .list_about {

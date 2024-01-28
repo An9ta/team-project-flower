@@ -1,6 +1,6 @@
 <!-- Modal2 Follow to our newsletter-->
 <div class="is-hidden backdrop" follow-data-modal>
-  <div class="modal">
+  <div class="modal-follow">
     <button type="button" class="close-btn" follow-modal-close>
       <svg
         width="18"
@@ -17,25 +17,21 @@
         />
       </svg>
     </button>
-    <div class="modal-center">
-      <div>
-        <img
-          src="./images/tablet-mobile-modal-christie-kim.jpg"
-          srcset="./images/tablet-mobile-modal-christie-kim@x2.jpg"
-          alt="bouquet of flowers"
-        />
+    <div class="follow-desktop">
+      <div class="modal-img"></div>
+      <div class="modal-center-follow">
         <div>
-          <h2>Follow to our newsletter</h2>
-          <p class="">
+          <h2 class="modal-follow-h2">Follow to our newsletter</h2>
+          <p class="modal-follow-p">
             Be the first to get exclusive offers and the latest news on our product directly in your
             box.
           </p>
           <form>
-            <div class="modal-label">
-              <label class="modal-label" for="email"> Email </label>
-              <div>
+            <div>
+              <label class="modal-label-follow" for="email"> Email </label>
+              <div class="modal-follow-div-label">
                 <input
-                  class="modal-input"
+                  class="modal-input-follow"
                   id="email"
                   name="email"
                   type="email"
@@ -43,7 +39,9 @@
                   required
                 />
               </div>
-              <button type="button-send" class="modal-button" follow-modal-close>Subscribe</button>
+              <button type="button-send" class="modal-button-follow" follow-modal-close>
+                Subscribe
+              </button>
             </div>
           </form>
         </div>

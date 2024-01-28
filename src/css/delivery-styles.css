@@ -1,53 +1,31 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-:root {
-    --white: #ffffff;
-    --text: #000;
-}
-
-body {
-    font-family: "Inter", sans-serif;
-    font-family: "Montserrat", sans-serif;
-    color: var(--text);
-    background-color: var(--white);
-}
-
-.container {
+.delivery-container {
     max-width: 480px;
     padding: 0 16px;
+    margin: auto;
 }
 
-.section {
+.delivery-section {
     padding: 60px 0;
 }
-.section-title {
+
+.delivery-section-title {
     color: #000;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
-.section-title::after {
-    content: "";
-    position: absolute;
-    top: 9%;
-    width: 75%;
-    height: 1px;
-    background: black;
+.delivery-title-line {
+    border-bottom: 1px solid black;
+    flex-grow: 1;
 }
 
-.list {
+.delivery-list-g {
     list-style: none;
 }
 
@@ -61,12 +39,15 @@ body {
     display: flex;
     align-items: center;
     padding-bottom: 5%;
+    margin-left: 5%;
 }
-.text {
+
+.delivery-text {
     margin-left: 5vw;
     font-size: 14px;
 }
-.circle {
+
+.delivery-circle {
     width: 39px;
     height: 39px;
     border: 1px solid black;
@@ -77,7 +58,7 @@ body {
     flex-shrink: 0;
 }
 
-.number {
+.delivery-number {
     color: #000;
     font-family: Montserrat;
     font-size: 20px;
@@ -99,37 +80,35 @@ body {
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-.container{
-    max-width: 768px;
-}
-.section-title{
-    font-size: 44px;
-}
-.section-title::after{
-    top: 11%;
-}
-.text{
-    font-size: 24px;
-}
-.circle {
-    width: 63px;
-    height: 63px;
-}
-.number{
-    font-size: 26px;
-}
+    .delivery-container {
+        max-width: 768px;
+    }
+
+    .delivery-section-title {
+        font-size: 44px;
+    }
+
+    .delivery-text {
+        font-size: 24px;
+    }
+
+    .delivery-circle {
+        width: 63px;
+        height: 63px;
+    }
+
+    .delivery-number {
+        font-size: 26px;
+    }
 }
 
 /* DESKTOP */
-@media (min-width: 1280px){
-.container{
-    max-width: 1280px;
+@media (min-width: 1280px) {
+    .delivery-container {
+        max-width: 1280px;
     }
-.section-title::after{
-    top: 11%;
-}
-.text{
-    font-size: 32px;
-}
-}
 
+    .delivery-text {
+        font-size: 32px;
+    }
+}
