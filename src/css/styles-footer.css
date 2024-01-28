@@ -12,14 +12,9 @@ footer {
   color: var(--white);
   height: 389px;
 }
-/* a {
-  text-decoration: none;
-  color: var(--white);
-}
-li {
-  list-style: none;
-} */
 .footer-container {
+  display: flex;
+  justify-content: flex-start;
   max-width: 480px;
 }
 .footer-svg {
@@ -37,6 +32,9 @@ li {
   margin-bottom: 18px;
 }
 .list-points {
+  text-decoration: none;
+  color: var(--white);
+  list-style: none;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -120,6 +118,8 @@ li {
     height: 299px;
   }
   .footer-container {
+    display: flex;
+    justify-content: center;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
