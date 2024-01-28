@@ -1,11 +1,11 @@
 /*mobile*/
 .container-header {
   display: flex;
-  align-items: ceneter;
+  align-items: center;
   justify-content: space-between;
   margin-left: 16px;
   margin-right: 16px;
-  margin-top: 40px;
+  margin-top: 16px;
   margin-bottom: 35px;
 }
 .logo-header {
