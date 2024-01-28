@@ -32,6 +32,11 @@
 }
 .menu-header {
   display: none;
+  text-decoration: none;
+  align-items: center;
+  font-size: 20px;
+  line-height: 1.2;
+  cursor: pointer;
 }
 /*tablet*/
 @media screen and (min-width: 768px) {
