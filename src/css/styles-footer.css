@@ -12,16 +12,10 @@ footer {
   color: var(--white);
   height: 389px;
 }
-/* a {
-  text-decoration: none;
-  color: var(--white);
-}
-li {
-  list-style: none;
-} */
 .footer-container {
   max-width: 480px;
 }
+
 .footer-svg {
   fill: var(--white);
 }
@@ -37,6 +31,9 @@ li {
   margin-bottom: 18px;
 }
 .list-points {
+  text-decoration: none;
+  color: var(--white);
+  list-style: none;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -79,6 +76,8 @@ li {
     height: 268px;
   }
   .footer-container {
+    display: flex;
+    justify-content: center;
     max-width: 768x;
     margin: 0 auto;
   }
@@ -121,7 +120,7 @@ li {
   }
   .footer-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
   }
   .logo-svg-footer {

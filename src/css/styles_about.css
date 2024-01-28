@@ -44,8 +44,9 @@ ul {
 }
 .line {
   width: 183px;
-  color: black;
+  border: 1px solid black;
 }
+
 .list_about {
   display: flex;
   flex-direction: column;
@@ -61,7 +62,7 @@ ul {
   line-height: normal;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 768px) {
   .section_about {
     padding-bottom: 100px;
   }
@@ -87,7 +88,6 @@ ul {
 
   .line {
     width: 538px;
-    color: black;
   }
   .list_about {
     flex-direction: row;
@@ -128,7 +128,6 @@ ul {
 
   .line {
     width: 1050px;
-    color: black;
   }
 
   .list_about {
