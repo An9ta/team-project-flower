@@ -1,13 +1,23 @@
-body {
-  margin: 0;
+:root {
+--black: #000000;
+--white: #ffffff;
 }
-
+/*mobile*/
+body {
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  display: none;
+}
+/*tablet*/
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
 }
-
+/*desctop*/
 @media screen and (min-width: 1280px) {
   .container {
     width: px;
