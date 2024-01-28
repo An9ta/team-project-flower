@@ -38,6 +38,17 @@
   line-height: 1.2;
   cursor: pointer;
 }
+.menu-anemone-header {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.menu-link-header {
+  text-decoration: none;
+}
 /*tablet*/
 @media screen and (min-width: 768px) {
   .cointainer {
