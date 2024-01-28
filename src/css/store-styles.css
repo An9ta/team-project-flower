@@ -34,6 +34,10 @@
   position: relative;
 }
 
+.store-order-container{
+  padding-top: 32px;
+}
+
 .store-title > ::after,
 .store-title > ::before{
     content: '';
@@ -106,15 +110,15 @@
   padding-top: 6px;
 }
 
-.store-order-container {
+.store-order-button {
   width: 100%;
   padding-top: 32px;
 }
 
 .store-order-button {
+  height: 44px;
   display: flex;
   width: 208px;
-  height: 44px;
   padding: 14px 28px;
   justify-content: center;
   align-items: center;
@@ -178,6 +182,12 @@
 }
 
 @media (min-width: 768px) {
+  .store-order-container{
+    padding-top: 60px;
+  }
+  .store-order-button {
+    height: 64px;
+  }
   .store-title{
     font-size: 44px;
   }
