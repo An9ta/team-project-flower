@@ -39,6 +39,7 @@ ul {
 .container-blog {
   max-width: 480px;
   padding: 0 16px;
+  margin: auto;
 }
 .follow-text {
   color: var(--black);
