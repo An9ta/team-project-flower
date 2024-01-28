@@ -38,7 +38,7 @@
   line-height: 1.2;
   cursor: pointer;
 }
-.menu-anemone-header {
+.menu-link-header {
   color: #000;
   font-family: Montserrat;
   font-size: 20px;
@@ -58,6 +58,9 @@
   .menu-header {
     display: flex;
     align-items: ceneter;
+  }
+  .icon-burger-header {
+    display: none;
   }
 }
 /*desctop*/
