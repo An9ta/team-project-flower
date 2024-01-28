@@ -20,7 +20,6 @@
 body {
   font-family: 'Inter', sans-serif;
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--white);
 }
 
 h2 {
@@ -33,7 +32,6 @@ h2 {
     overflow: hidden;
     display: inline-block;
 }
-
 
 @media screen and (min-width: 768px) {
 
