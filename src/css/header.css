@@ -1,13 +1,4 @@
-:root {
-  --black: #000000;
-  --white: #ffffff;
-}
 /*mobile*/
-body {
-  margin: 0 auto;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-}
 .menu {
   display: none;
 }
