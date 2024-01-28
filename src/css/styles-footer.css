@@ -13,10 +13,9 @@ footer {
   height: 389px;
 }
 .footer-container {
-  display: flex;
-  justify-content: center;
   max-width: 480px;
 }
+
 .footer-svg {
   fill: var(--white);
 }
@@ -77,6 +76,8 @@ footer {
     height: 268px;
   }
   .footer-container {
+    display: flex;
+    justify-content: center;
     max-width: 768x;
     margin: 0 auto;
   }
