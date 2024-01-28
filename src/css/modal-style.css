@@ -2,9 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+ }
 :root {
   --pink: #e86f54;
   --pink-hover: #e25b41;
