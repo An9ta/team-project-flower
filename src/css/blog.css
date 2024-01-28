@@ -44,6 +44,11 @@ ul {
   list-style: none;
 }
 
+.container-blog {
+  max-width: 480px;
+  padding: 0 16px;
+  margin: auto;
+}
 .follow-text {
   color: var(--black);
   text-align: center;
