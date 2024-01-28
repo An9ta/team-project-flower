@@ -1,14 +1,16 @@
 /*mobile*/
-.menu {
+
+.menu-header {
   display: none;
 }
 
 /*tablet*/
 @media screen and (min-width: 768px) {
-  .container {
+  .container-header {
     width: 768px;
   }
 }
+
 /*desctop*/
 @media screen and (min-width: 1280px) {
   .container {
