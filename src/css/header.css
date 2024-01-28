@@ -51,10 +51,6 @@
 }
 /*tablet*/
 @media screen and (min-width: 768px) {
-  .container-header {
-    max-width: 768px;
-  }
-
   .logo-icon-header {
     width: 72px;
     height: 57px;
@@ -74,10 +70,6 @@
 }
 /*desctop*/
 @media screen and (min-width: 1280px) {
-  .container-header {
-    max-width: 1280px;
-  }
-
   .icon-tel-header {
     width: 28px;
     height: 28px;
