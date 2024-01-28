@@ -61,7 +61,7 @@ ul {
   line-height: normal;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 768px) {
   .section_about {
     padding-bottom: 100px;
   }
