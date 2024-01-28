@@ -75,7 +75,6 @@
 .delivery-img {
     background-image: url(../images/image-delivery-desktop.jpg);
     background-size: contain;
-    height: 100em;
     width: 100vw;
     background-repeat: no-repeat;
 }
@@ -87,7 +86,6 @@
     .delivery-img {
         background-image: url(../images/image-delivery-desktop@x2.jpg);
         background-size: contain;
-        height: 100em;
         width: 100vw;
         background-repeat: no-repeat;
     }
