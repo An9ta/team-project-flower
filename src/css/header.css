@@ -19,8 +19,8 @@
 .icon-burger-header {
   width: 24px;
   height: 24px;
-  margin-right: 16px;
-  margin-top: 16px;
+  /* margin-right: 16px;
+  margin-top: 16px;*/
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@
   height: 22px;
   display: flex;
   align-items: center;
-  margin-top: 18px;
+  margin-top: 2px;
   margin-right: 14px;
 }
 .menu-header {
