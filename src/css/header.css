@@ -24,6 +24,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
+  fill: black;
 }
 .icon-tel-header {
   width: 24px;
