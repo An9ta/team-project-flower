@@ -71,8 +71,8 @@
   .icon-tel-header {
     width: 24px;
     height: 24px;
-    /*margin-right: 24px;
-    margin-top: 40px;*/
+    margin-right: 24px;
+    margin-top: 40px;
   }
   .icon-burger-header {
     display: none;
