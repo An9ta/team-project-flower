@@ -21,6 +21,7 @@ ul {
 }
 .container-blog {
   padding: 0 16px;
+  max-width: 480px;
 }
 .section-blog-list {
   gap: 16px;
@@ -70,7 +71,6 @@ ul {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-
 .btn-subscribe {
   height: 40px;
   min-width: 170px;
@@ -81,7 +81,6 @@ ul {
   justify-content: center;
   align-items: center;
 }
-
 .btn-subscribe:hover {
   background-color: var(--pink-alt);
   box-shadow: 0 4px 16px #fa6f5433;
@@ -97,23 +96,20 @@ ul {
   display: none;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) {
   .section-title-blog {
     font-size: 44px;
   }
-
+  .container-blog {
+    max-width: 720px;
+  }
   .follow-text {
     font-size: 32px;
   }
-
   .btn-subscribe {
     min-width: 280px;
     height: 64px;
   }
-
   .btn {
     font-size: 28px;
   }
@@ -123,20 +119,16 @@ ul {
   .mobile-hidden {
     display: block;
   }
-
-  .section-title-blog {
-    font-size: 44px;
+  .container-blog {
+    max-width: 1232px;
   }
-
   .follow-text {
     font-size: 32px;
   }
-
   .btn-subscribe {
     min-width: 280px;
     height: 64px;
   }
-
   .btn {
     font-size: 28px;
   }
