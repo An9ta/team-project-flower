@@ -102,8 +102,8 @@
     animation-duration: 3000ms;
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
-    animation-fill-mode: backwards; */
-  }
+    animation-fill-mode: backwards;
+  }*/
   @keyframes changeBgColor {
     0% {
       color: #000;
