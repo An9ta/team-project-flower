@@ -96,13 +96,13 @@
     width: 28px;
     height: 28px;
   }
-  .container-header:hover,
+  /* .container-header:hover,
   .container-header:focus {
     animation-name: changeBgColor;
     animation-duration: 3000ms;
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
-    animation-fill-mode: backwards;
+    animation-fill-mode: backwards; */
   }
   @keyframes changeBgColor {
     0% {
