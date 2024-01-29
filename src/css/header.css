@@ -17,8 +17,8 @@
   height: 35px;
 }
 .icon-burger-header {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   margin-right: 16px;
   margin-top: 16px;
   cursor: pointer;
@@ -26,8 +26,8 @@
   align-items: center;
 }
 .icon-tel-header {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   display: flex;
   align-items: center;
   margin-top: 18px;
