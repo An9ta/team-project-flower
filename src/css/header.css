@@ -1,12 +1,22 @@
 /*mobile*/
 .container-header {
-  display: flex;
+  /*display: flex;
   align-items: center;
   justify-content: space-between;
   margin-left: 16px;
   margin-right: 16px;
   margin-top: 16px;
-  margin-bottom: 44px;
+  margin-bottom: 44px;*/
+  width: 100%;
+  max-width: 480px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-top: 16px;
+  padding-bottom: 44px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
 }
 .logo-header {
   display: flex;
