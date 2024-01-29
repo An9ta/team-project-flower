@@ -89,6 +89,9 @@
     margin-top: 28px;
     margin-bottom: 64px;
   }
+  .menu-header {
+    gap: 48px;
+  }
   .logo-icon-header {
     margin-top: 28px;
   }
