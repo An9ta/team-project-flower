@@ -116,6 +116,9 @@
     padding-left: 24px;
     padding-right: 24px;
   }
+  .menu-header {
+    gap: 48px;
+  }
   .logo-icon-header {
     /* margin-top: 28px;*/
   }
