@@ -103,6 +103,8 @@ ul {
   .container-blog {
     max-width: 720px;
     width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .follow-text {
     font-size: 32px;
@@ -121,11 +123,11 @@ ul {
     display: block;
   }
   .container-blog {
-    max-width: 1232px;
+    max-width: 1280px;
     width: 100%;
     margin: auto;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .follow-text {
     font-size: 32px;
