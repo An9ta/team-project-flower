@@ -48,7 +48,7 @@
 }
 .menu-link-header {
   text-decoration: none;
-  color: #000;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -99,7 +99,7 @@
   .menu-header {
     gap: 48px;
   }
-  .menu-anemone-header {
+  .menu-link-header {
     color: white;
   }
   .logo-icon-header {
@@ -113,7 +113,6 @@
   .menu-header {
     gap: 48px;
   }
-
   .container-header:hover,
   .container-header:focus {
     animation-name: changeForeground;
