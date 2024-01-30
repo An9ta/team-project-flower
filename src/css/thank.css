@@ -85,7 +85,7 @@
 }
 .modal-form-thank {
   padding-bottom: 32px;
-  width: -moz-available;
+  width: 100%;
 }
 
 /* Tablet */
