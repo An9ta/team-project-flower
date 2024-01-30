@@ -1,12 +1,15 @@
 /*mobile*/
 .container-header {
   display: flex;
-  align-items: center;
+  width: 100%;
+  max-width: 480px;
   justify-content: space-between;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-top: 16px;
-  margin-bottom: 44px;
+  align-items: center;
+  margin: auto;
+  padding-top: 16px;
+  padding-bottom: 44px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .logo-header {
   display: flex;
@@ -15,12 +18,11 @@
 .logo-icon-header {
   width: 45px;
   height: 35px;
+  fill: black;
 }
 .icon-burger-header {
   width: 24px;
   height: 24px;
-  /* margin-right: 16px;
-  margin-top: 16px;*/
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -31,6 +33,7 @@
   height: 22px;
   display: flex;
   align-items: center;
+  fill: black;
   margin-top: 2px;
   margin-right: 14px;
 }
@@ -45,28 +48,30 @@
 }
 .menu-link-header {
   text-decoration: none;
-  color: #000;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  /*margin-right: 24px;
-  margin-top: 40px;*/
 }
 /*tablet*/
 @media screen and (min-width: 768px) {
   .container-header {
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 24px;
-    margin-bottom: 38px;
+    width: 100%;
+    max-width: 720px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 24px;
+    padding-bottom: 38px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
   }
   .logo-icon-header {
     width: 72px;
     height: 57px;
-    /*margin-top: 24px;
-    margin-left: 24px;*/
   }
   .icon-tel-header {
     width: 24px;
@@ -85,32 +90,46 @@
 /*desctop*/
 @media screen and (min-width: 1280px) {
   .container-header {
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 28px;
-    margin-bottom: 64px;
+    max-width: 1232px;
+    padding-top: 28px;
+    padding-bottom: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .menu-header {
+    gap: 48px;
+  }
+  .menu-anemone-header {
+    color: white;
   }
   .logo-icon-header {
-    margin-top: 28px;
+    fill: white;
   }
   .icon-tel-header {
     width: 28px;
     height: 28px;
+    fill: white;
+  }
+  .menu-header {
+    gap: 48px;
   }
   .container-header:hover,
   .container-header:focus {
-    animation-name: changeBgColor;
+    animation-name: changeForeground;
     animation-duration: 3000ms;
+    /* animation-timing-function: */
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
   }
-  @keyframes changeBgColor {
+  @keyframes changeForeground {
     0% {
-      color: #000;
+      color: white;
     }
     50% {
-      color: #000;
+      color: black;
     }
     100% {
-      color: white;
+      color: black;
     }
   }
 }
