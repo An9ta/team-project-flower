@@ -113,23 +113,4 @@
   .menu-header {
     gap: 48px;
   }
-  .container-header:hover,
-  .container-header:focus {
-    animation-name: changeForeground;
-    animation-duration: 3000ms;
-    /* animation-timing-function: */
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-  }
-  @keyframes changeForeground {
-    0% {
-      color: white;
-    }
-    50% {
-      color: black;
-    }
-    100% {
-      color: black;
-    }
-  }
 }
