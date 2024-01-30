@@ -68,6 +68,8 @@
     padding-left: 24px;
     padding-right: 24px;
     display: flex;
+    position: relative;
+    z-index: 100;
   }
   .logo-icon-header {
     width: 72px;
@@ -87,7 +89,7 @@
     align-items: center;
   }
 }
-/*desctop*/
+/*desktop*/
 @media screen and (min-width: 1280px) {
   .container-header {
     max-width: 1232px;
@@ -99,16 +101,10 @@
   .menu-header {
     gap: 48px;
   }
-  .menu-link-header {
-    /* color: white; */
-  }
-  .logo-icon-header {
-    /* fill: white; */
-  }
+
   .icon-tel-header {
     width: 28px;
     height: 28px;
-    /* fill: white; */
   }
   .menu-header {
     gap: 48px;
