@@ -100,10 +100,10 @@
     gap: 48px;
   }
   .menu-link-header {
-    color: white;
+    /* color: white; */
   }
   .logo-icon-header {
-    fill: white;
+    /* fill: white; */
   }
   .icon-tel-header {
     width: 28px;
