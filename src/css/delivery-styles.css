@@ -1,10 +1,13 @@
 .delivery-container {
   max-width: 480px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: auto;
 }
 
 .delivery-section {
-  padding: 0 16px 60px 16px;
+  /* padding: 0 16px 60px 16px; */
+  padding-bottom: 60px;
 }
 
 .delivery-section-title {
@@ -78,7 +81,10 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
   .delivery-container {
-    max-width: 768px;
+    /* max-width: 768px; */
+    max-width: 720px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .delivery-section-title {
@@ -103,6 +109,8 @@
 @media (min-width: 1280px) {
   .delivery-container {
     max-width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .delivery-text {
