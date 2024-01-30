@@ -87,6 +87,10 @@
   padding-bottom: 32px;
   width: 100%;
 }
+.svg-thank {
+  width: 100%;
+  height: 100%;
+}
 
 /* Tablet */
 @media (min-width: 768px) {
@@ -114,5 +118,9 @@
   }
   .modal-form-thank {
     padding-bottom: 54px;
+  }
+  .box-svg-thank {
+    width: 367px;
+    height: 202px;
   }
 }
