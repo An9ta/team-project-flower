@@ -101,9 +101,11 @@
   .logo-icon-header {
     fill: white;
   }
+  .menu-link-header {
+    color: white;
+  }
   .menu-header {
     gap: 48px;
-    color: white;
   }
   .icon-tel-header {
     width: 28px;
