@@ -98,15 +98,16 @@
     padding-left: 24px;
     padding-right: 24px;
   }
+  .logo-icon-header {
+    fill: white;
+  }
   .menu-header {
     gap: 48px;
+    color: white;
   }
-
   .icon-tel-header {
     width: 28px;
     height: 28px;
-  }
-  .menu-header {
-    gap: 48px;
+    fill: white;
   }
 }
